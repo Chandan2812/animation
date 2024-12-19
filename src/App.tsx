@@ -1,10 +1,15 @@
+import Animation1 from "./components/Animation1";
+import Animation2 from "./components/Animation2";
+import Animation3 from "./components/Animation3";
+import FlipCard from "./components/Animation4";
+
 export default function App() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">Hello, Tailwind CSS!</h1>
-      <p className="mt-4 text-gray-700">
-        React + Vite + Tailwind + TypeScript is set up!
-      </p>
+    <div>
+        <Animation1/>
+        <Animation2/>
+        <Animation3/>
+        <FlipCard/>
     </div>
   );
 }
